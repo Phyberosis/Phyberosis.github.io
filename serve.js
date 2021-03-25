@@ -25,10 +25,13 @@ const server = http.createServer((req, res) => {
   // console.log(path);
   fs.readFile(path, function (err, html) {
     if (err) {
-      throw err;
+      console.error(err);
+      res.write('/index.html')
+      res.end();
+    } else {
+      res.write(html);
+      res.end(); 
     }
-    res.write(html);
-    res.end();
   });
 });
 

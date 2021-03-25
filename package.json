@@ -16,7 +16,5 @@
     "url": "https://github.com/Phyberosis/Phyberosis.github.io/issues"
   },
   "homepage": "https://github.com/Phyberosis/Phyberosis.github.io#readme",
-  "dependencies": {
-    "bootstrap": "^5.0.0-beta3"
-  }
+  "dependencies": {}
 }
